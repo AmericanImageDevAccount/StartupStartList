@@ -1,0 +1,6 @@
+%h1= @category.category_name
+
+= link_to "Edit", edit_category_path(@category), class: "data"
+= link_to "Delete", category_path(@category), method: :delete, data: { confirm: "Are you sure?" }, class: "data"
+= link_to "New", new_category_path, class: "button"
+= link_to "Home", root_path, class: "button"

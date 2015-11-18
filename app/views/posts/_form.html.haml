@@ -1,0 +1,15 @@
+#post_pack
+  = simple_form_for @post do |f|
+    .content.title
+      = f.input :image
+      #post_inputs
+        = f.input :title
+        = f.input :link
+        = f.input :contact_person
+        = f.input :contact_phone
+        = f.input :contact_email
+      #post_description
+        = f.input :description
+      #post_category
+      %h2= collection_select( :post, :category_id, Category.all, :id, :category_name, {}, { :multiple => false } )
+      = f.button :submit
