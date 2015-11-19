@@ -12,6 +12,9 @@ Rails.application.routes.draw do
       resources :comments
     end
     resources :categories
+    resources :locations
+
+    get 'locations/index', to: "locations#index"
 
     get 'categories/index', to: 'categories#index'
 

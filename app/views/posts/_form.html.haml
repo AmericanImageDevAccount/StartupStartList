@@ -13,3 +13,6 @@
       #post_category
       %h2= collection_select( :post, :category_id, Category.all, :id, :category_name, {}, { :multiple => false } )
       = f.button :submit
+      #post_location
+      %h2= collection_select( :post, :location_id, Location.all, :id, :location_name, {}, { :multiple => false } )
+      = f.button :submit

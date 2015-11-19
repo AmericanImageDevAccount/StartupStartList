@@ -11,7 +11,7 @@
   %header
     .wrapper.clearfix
       #logo= link_to "AUSTIN STARTUP MAP", root_path
-      %br
+      %br/
       %br
       - if user_signed_in?
         = link_to current_user.name, edit_user_registration_path
@@ -23,7 +23,9 @@
       %nav.navbar.navbar-default{role: "navigation"}
       - Category.all.each do |category|
         = link_to category.category_name, posts_path(category: category.category_name), class: "button pull-left"
-
+      %nav.navbar.navbar-default{role: "navigation"}
+      - Location.all.each do |location|
+        = link_to location.location_name, posts_path(location: location.location_name), class: "button pull-right"
   %nav
 
   %p.notice= notice

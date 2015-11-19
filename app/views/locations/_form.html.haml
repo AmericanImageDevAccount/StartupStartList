@@ -1,0 +1,12 @@
+= simple_form_for @location, html: { multipart: true } do |f|
+	- if @location.errors.any?
+		#errors
+			%p
+				= @location.errors.count
+				Prevented this recipe froms saving
+			%ul
+				- @location.errors.full_messages.each do |msg|
+					%li= msg
+	.panel-body
+		= f.input :location_name
+		= f.submit

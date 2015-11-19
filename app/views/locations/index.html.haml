@@ -1,0 +1,8 @@
+.container
+  %ul.nav.nav-tabs
+    %h1 location index
+      %li- @locations.each do |location|
+      %h2= link_to location.location_name, location
+
+= link_to "New", new_location_path, class: "button"
+= link_to "Home", root_path, class: "button"
