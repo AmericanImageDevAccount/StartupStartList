@@ -1966,3 +1966,127 @@ Exiting
 192.168.0.14 - - [18/Nov/2015:09:20:30 +0000] "GET /images/springsource.png HTTP/1.0" 404 39025 0.0789
 192.168.0.14 - - [18/Nov/2015:09:27:53 +0000] "GET /images/springsource.png HTTP/1.0" 404 39024 0.1244
 192.168.0.14 - - [18/Nov/2015:09:28:22 +0000] "GET /posts:3000 HTTP/1.0" 404 39041 0.1113
+I, [2015-11-18T09:33:11.231729 #6773]  INFO -- : reaped #<Process::Status: pid 6776 exit 0> worker=0
+I, [2015-11-18T09:33:11.232051 #6773]  INFO -- : reaped #<Process::Status: pid 6779 exit 0> worker=1
+I, [2015-11-18T09:33:11.232254 #6773]  INFO -- : master complete
+I, [2015-11-19T00:39:05.732867 #10050]  INFO -- : listening on addr=/tmp/unicorn.todo.sock fd=10
+I, [2015-11-19T00:39:05.733135 #10050]  INFO -- : worker=0 spawning...
+I, [2015-11-19T00:39:05.733630 #10050]  INFO -- : worker=1 spawning...
+I, [2015-11-19T00:39:05.734323 #10053]  INFO -- : worker=0 spawned pid=10053
+I, [2015-11-19T00:39:05.734937 #10050]  INFO -- : master process ready
+I, [2015-11-19T00:39:05.735093 #10053]  INFO -- : Refreshing Gem list
+I, [2015-11-19T00:39:05.747098 #10056]  INFO -- : worker=1 spawned pid=10056
+I, [2015-11-19T00:39:05.747121 #10056]  INFO -- : Refreshing Gem list
+I, [2015-11-19T00:39:10.984823 #10053]  INFO -- : worker=0 ready
+I, [2015-11-19T00:39:10.986448 #10056]  INFO -- : worker=1 ready
+192.168.0.14 - - [19/Nov/2015:01:21:34 +0000] "GET /images/springsource.png HTTP/1.0" 404 39025 0.1479
+192.168.0.14 - - [19/Nov/2015:01:21:47 +0000] "GET /posts HTTP/1.0" 200 - 2.5326
+192.168.0.14 - - [19/Nov/2015:01:21:49 +0000] "GET /jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1 HTTP/1.0" 200 284185 1.5301
+E, [2015-11-19T01:21:55.953491 #10050] ERROR -- : reaped #<Process::Status: pid 10053 SIGKILL (signal 9)> worker=0
+I, [2015-11-19T01:21:55.955605 #10050]  INFO -- : worker=0 spawning...
+I, [2015-11-19T01:21:55.967423 #10267]  INFO -- : worker=0 spawned pid=10267
+I, [2015-11-19T01:21:55.967707 #10267]  INFO -- : Refreshing Gem list
+192.168.0.14 - - [19/Nov/2015:01:21:56 +0000] "GET /application.self-01671d29d940036b1ea09e58ea97f057f3f423a69a83fbe9203ea599ba9d7f94.css?body=1 HTTP/1.0" 200 241562 8.4617
+192.168.0.14 - - [19/Nov/2015:01:21:56 +0000] "GET /turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1 HTTP/1.0" 200 24817 0.2023
+192.168.0.14 - - [19/Nov/2015:01:21:56 +0000] "GET /bootstrap.self-075878ec6a19d24f3b46052eb9e0e5bb5c2a098ac50d05d8e3a21309d129273a.js?body=1 HTTP/1.0" 200 36818 0.2028
+192.168.0.14 - - [19/Nov/2015:01:21:56 +0000] "GET /categories.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1 HTTP/1.0" 200 31 0.1193
+192.168.0.14 - - [19/Nov/2015:01:21:56 +0000] "GET /category.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1 HTTP/1.0" 200 31 0.1600
+192.168.0.14 - - [19/Nov/2015:01:21:56 +0000] "GET /comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1 HTTP/1.0" 200 31 0.1061
+192.168.0.14 - - [19/Nov/2015:01:21:57 +0000] "GET /posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1 HTTP/1.0" 200 31 0.1902
+192.168.0.14 - - [19/Nov/2015:01:21:57 +0000] "GET /application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1 HTTP/1.0" 200 581 0.5966
+192.168.0.14 - - [19/Nov/2015:01:21:58 +0000] "GET /bkg-9-8330c5f6e63c25dc2a56db83639959c5aa0dd3675d7d54f795dc0b35e5518c2f.jpg HTTP/1.0" 200 220876 0.0595
+I, [2015-11-19T01:21:58.852444 #10267]  INFO -- : worker=0 ready
+192.168.0.14 - - [19/Nov/2015:01:23:15 +0000] "GET /posts HTTP/1.0" 200 - 0.3988
+192.168.0.14 - - [19/Nov/2015:01:23:15 +0000] "GET /jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1 HTTP/1.0" 304 - 0.0356
+192.168.0.14 - - [19/Nov/2015:01:23:15 +0000] "GET /jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1 HTTP/1.0" 200 18857 0.1133
+192.168.0.14 - - [19/Nov/2015:01:23:15 +0000] "GET /application.self-01671d29d940036b1ea09e58ea97f057f3f423a69a83fbe9203ea599ba9d7f94.css?body=1 HTTP/1.0" 304 - 0.1627
+192.168.0.14 - - [19/Nov/2015:01:23:15 +0000] "GET /turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1 HTTP/1.0" 304 - 0.0366
+192.168.0.14 - - [19/Nov/2015:01:23:15 +0000] "GET /bootstrap.self-075878ec6a19d24f3b46052eb9e0e5bb5c2a098ac50d05d8e3a21309d129273a.js?body=1 HTTP/1.0" 304 - 0.0425
+192.168.0.14 - - [19/Nov/2015:01:23:15 +0000] "GET /categories.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1 HTTP/1.0" 304 - 0.0393
+192.168.0.14 - - [19/Nov/2015:01:23:15 +0000] "GET /category.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1 HTTP/1.0" 304 - 0.0523
+192.168.0.14 - - [19/Nov/2015:01:23:15 +0000] "GET /comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1 HTTP/1.0" 304 - 0.0452
+192.168.0.14 - - [19/Nov/2015:01:23:15 +0000] "GET /posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1 HTTP/1.0" 304 - 0.0519
+192.168.0.14 - - [19/Nov/2015:01:23:15 +0000] "GET /application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1 HTTP/1.0" 304 - 0.0488
+192.168.0.14 - - [19/Nov/2015:01:23:15 +0000] "GET /bkg-9-8330c5f6e63c25dc2a56db83639959c5aa0dd3675d7d54f795dc0b35e5518c2f.jpg HTTP/1.0" 304 - 0.0317
+192.168.0.14 - - [19/Nov/2015:01:24:40 +0000] "GET /posts HTTP/1.0" 200 - 0.2543
+192.168.0.14 - - [19/Nov/2015:01:24:41 +0000] "GET /jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1 HTTP/1.0" 304 - 0.0466
+192.168.0.14 - - [19/Nov/2015:01:24:41 +0000] "GET /application.self-01671d29d940036b1ea09e58ea97f057f3f423a69a83fbe9203ea599ba9d7f94.css?body=1 HTTP/1.0" 304 - 0.0493
+192.168.0.14 - - [19/Nov/2015:01:24:41 +0000] "GET /jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1 HTTP/1.0" 304 - 0.0439
+192.168.0.14 - - [19/Nov/2015:01:24:41 +0000] "GET /turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1 HTTP/1.0" 304 - 0.0532
+192.168.0.14 - - [19/Nov/2015:01:24:41 +0000] "GET /bootstrap.self-075878ec6a19d24f3b46052eb9e0e5bb5c2a098ac50d05d8e3a21309d129273a.js?body=1 HTTP/1.0" 304 - 0.0417
+192.168.0.14 - - [19/Nov/2015:01:24:41 +0000] "GET /categories.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1 HTTP/1.0" 304 - 0.0568
+192.168.0.14 - - [19/Nov/2015:01:24:41 +0000] "GET /category.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1 HTTP/1.0" 304 - 0.0461
+192.168.0.14 - - [19/Nov/2015:01:24:41 +0000] "GET /comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1 HTTP/1.0" 304 - 0.0400
+192.168.0.14 - - [19/Nov/2015:01:24:41 +0000] "GET /posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1 HTTP/1.0" 304 - 0.0343
+192.168.0.14 - - [19/Nov/2015:01:24:41 +0000] "GET /application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1 HTTP/1.0" 304 - 0.0564
+192.168.0.14 - - [19/Nov/2015:01:24:41 +0000] "GET /bkg-9-8330c5f6e63c25dc2a56db83639959c5aa0dd3675d7d54f795dc0b35e5518c2f.jpg HTTP/1.0" 304 - 0.0205
+192.168.0.14 - - [19/Nov/2015:01:27:51 +0000] "GET /posts HTTP/1.0" 200 - 0.4513
+192.168.0.14 - - [19/Nov/2015:01:27:51 +0000] "GET /jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1 HTTP/1.0" 304 - 0.0469
+192.168.0.14 - - [19/Nov/2015:01:27:51 +0000] "GET /application.self-01671d29d940036b1ea09e58ea97f057f3f423a69a83fbe9203ea599ba9d7f94.css?body=1 HTTP/1.0" 304 - 0.0507
+192.168.0.14 - - [19/Nov/2015:01:27:51 +0000] "GET /turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1 HTTP/1.0" 304 - 0.0422
+192.168.0.14 - - [19/Nov/2015:01:27:51 +0000] "GET /jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1 HTTP/1.0" 304 - 0.0495
+192.168.0.14 - - [19/Nov/2015:01:27:51 +0000] "GET /bootstrap.self-075878ec6a19d24f3b46052eb9e0e5bb5c2a098ac50d05d8e3a21309d129273a.js?body=1 HTTP/1.0" 304 - 0.0406
+192.168.0.14 - - [19/Nov/2015:01:27:51 +0000] "GET /categories.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1 HTTP/1.0" 304 - 0.0429
+192.168.0.14 - - [19/Nov/2015:01:27:51 +0000] "GET /category.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1 HTTP/1.0" 304 - 0.0450
+192.168.0.14 - - [19/Nov/2015:01:27:51 +0000] "GET /comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1 HTTP/1.0" 304 - 0.0430
+192.168.0.14 - - [19/Nov/2015:01:27:51 +0000] "GET /posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1 HTTP/1.0" 304 - 0.0383
+192.168.0.14 - - [19/Nov/2015:01:27:51 +0000] "GET /application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1 HTTP/1.0" 304 - 0.0489
+192.168.0.14 - - [19/Nov/2015:01:27:51 +0000] "GET /bkg-9-8330c5f6e63c25dc2a56db83639959c5aa0dd3675d7d54f795dc0b35e5518c2f.jpg HTTP/1.0" 304 - 0.0221
+192.168.0.14 - - [19/Nov/2015:02:08:58 +0000] "GET /posts HTTP/1.0" 200 - 0.3603
+192.168.0.14 - - [19/Nov/2015:02:08:59 +0000] "GET /jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1 HTTP/1.0" 304 - 0.0410
+192.168.0.14 - - [19/Nov/2015:02:08:59 +0000] "GET /application.self-01671d29d940036b1ea09e58ea97f057f3f423a69a83fbe9203ea599ba9d7f94.css?body=1 HTTP/1.0" 304 - 0.0463
+192.168.0.14 - - [19/Nov/2015:02:08:59 +0000] "GET /jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1 HTTP/1.0" 304 - 0.0394
+192.168.0.14 - - [19/Nov/2015:02:08:59 +0000] "GET /turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1 HTTP/1.0" 304 - 0.0371
+192.168.0.14 - - [19/Nov/2015:02:08:59 +0000] "GET /bootstrap.self-075878ec6a19d24f3b46052eb9e0e5bb5c2a098ac50d05d8e3a21309d129273a.js?body=1 HTTP/1.0" 304 - 0.0447
+192.168.0.14 - - [19/Nov/2015:02:08:59 +0000] "GET /categories.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1 HTTP/1.0" 304 - 0.0476
+192.168.0.14 - - [19/Nov/2015:02:08:59 +0000] "GET /category.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1 HTTP/1.0" 304 - 0.0464
+192.168.0.14 - - [19/Nov/2015:02:08:59 +0000] "GET /comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1 HTTP/1.0" 304 - 0.0496
+192.168.0.14 - - [19/Nov/2015:02:08:59 +0000] "GET /posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1 HTTP/1.0" 304 - 0.0410
+192.168.0.14 - - [19/Nov/2015:02:08:59 +0000] "GET /application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1 HTTP/1.0" 304 - 0.0511
+192.168.0.14 - - [19/Nov/2015:02:08:59 +0000] "GET /bkg-9-8330c5f6e63c25dc2a56db83639959c5aa0dd3675d7d54f795dc0b35e5518c2f.jpg HTTP/1.0" 304 - 0.0260
+192.168.0.14 - - [19/Nov/2015:02:09:50 +0000] "GET /posts HTTP/1.0" 500 157743 0.3190
+192.168.0.14 - - [19/Nov/2015:02:10:39 +0000] "GET /posts HTTP/1.0" 200 - 0.2957
+192.168.0.14 - - [19/Nov/2015:02:10:39 +0000] "GET /jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1 HTTP/1.0" 304 - 0.0375
+192.168.0.14 - - [19/Nov/2015:02:10:39 +0000] "GET /application.self-01671d29d940036b1ea09e58ea97f057f3f423a69a83fbe9203ea599ba9d7f94.css?body=1 HTTP/1.0" 304 - 0.0478
+192.168.0.14 - - [19/Nov/2015:02:10:39 +0000] "GET /jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1 HTTP/1.0" 304 - 0.0416
+192.168.0.14 - - [19/Nov/2015:02:10:39 +0000] "GET /turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1 HTTP/1.0" 304 - 0.0412
+192.168.0.14 - - [19/Nov/2015:02:10:39 +0000] "GET /bootstrap.self-075878ec6a19d24f3b46052eb9e0e5bb5c2a098ac50d05d8e3a21309d129273a.js?body=1 HTTP/1.0" 304 - 0.0351
+192.168.0.14 - - [19/Nov/2015:02:10:39 +0000] "GET /categories.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1 HTTP/1.0" 304 - 0.0369
+192.168.0.14 - - [19/Nov/2015:02:10:39 +0000] "GET /category.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1 HTTP/1.0" 304 - 0.0349
+192.168.0.14 - - [19/Nov/2015:02:10:39 +0000] "GET /comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1 HTTP/1.0" 304 - 0.0360
+192.168.0.14 - - [19/Nov/2015:02:10:39 +0000] "GET /posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1 HTTP/1.0" 304 - 0.0320
+192.168.0.14 - - [19/Nov/2015:02:10:39 +0000] "GET /application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1 HTTP/1.0" 304 - 0.0400
+192.168.0.14 - - [19/Nov/2015:02:10:39 +0000] "GET /bkg-9-8330c5f6e63c25dc2a56db83639959c5aa0dd3675d7d54f795dc0b35e5518c2f.jpg HTTP/1.0" 304 - 0.0211
+192.168.0.14 - - [19/Nov/2015:02:11:57 +0000] "GET /posts HTTP/1.0" 200 - 0.2996
+192.168.0.14 - - [19/Nov/2015:02:11:57 +0000] "GET /application.self-01671d29d940036b1ea09e58ea97f057f3f423a69a83fbe9203ea599ba9d7f94.css?body=1 HTTP/1.0" 304 - 0.0476
+192.168.0.14 - - [19/Nov/2015:02:11:57 +0000] "GET /jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1 HTTP/1.0" 304 - 0.0496
+192.168.0.14 - - [19/Nov/2015:02:11:57 +0000] "GET /jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1 HTTP/1.0" 304 - 0.0435
+192.168.0.14 - - [19/Nov/2015:02:11:57 +0000] "GET /turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1 HTTP/1.0" 304 - 0.0440
+192.168.0.14 - - [19/Nov/2015:02:11:57 +0000] "GET /bootstrap.self-075878ec6a19d24f3b46052eb9e0e5bb5c2a098ac50d05d8e3a21309d129273a.js?body=1 HTTP/1.0" 304 - 0.0411
+192.168.0.14 - - [19/Nov/2015:02:11:57 +0000] "GET /categories.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1 HTTP/1.0" 304 - 0.0447
+192.168.0.14 - - [19/Nov/2015:02:11:57 +0000] "GET /category.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1 HTTP/1.0" 304 - 0.0426
+192.168.0.14 - - [19/Nov/2015:02:11:57 +0000] "GET /comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1 HTTP/1.0" 304 - 0.0419
+192.168.0.14 - - [19/Nov/2015:02:11:57 +0000] "GET /posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1 HTTP/1.0" 304 - 0.0362
+192.168.0.14 - - [19/Nov/2015:02:11:57 +0000] "GET /application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1 HTTP/1.0" 304 - 0.0439
+192.168.0.14 - - [19/Nov/2015:02:11:58 +0000] "GET /bkg-9-8330c5f6e63c25dc2a56db83639959c5aa0dd3675d7d54f795dc0b35e5518c2f.jpg HTTP/1.0" 304 - 0.0198
+E, [2015-11-19T05:34:44.392493 #10050] ERROR -- : reaped #<Process::Status: pid 10056 SIGKILL (signal 9)> worker=1
+I, [2015-11-19T05:34:44.402493 #10050]  INFO -- : worker=1 spawning...
+I, [2015-11-19T05:34:44.411596 #11592]  INFO -- : worker=1 spawned pid=11592
+I, [2015-11-19T05:34:44.412088 #11592]  INFO -- : Refreshing Gem list
+I, [2015-11-19T05:34:46.706451 #11592]  INFO -- : worker=1 ready
+
+#
+# Fatal error in Evacuation
+# Allocation failed - process out of memory
+#
+
+I, [2015-11-19T05:50:22.546597 #7632]  INFO -- : listening on addr=/tmp/unicorn.todo.sock fd=10
+I, [2015-11-19T05:50:22.546801 #7632]  INFO -- : worker=0 spawning...
+I, [2015-11-19T05:50:22.547119 #7632]  INFO -- : worker=1 spawning...
+I, [2015-11-19T05:50:22.547554 #7635]  INFO -- : worker=0 spawned pid=7635
+I, [2015-11-19T05:50:22.547885 #7632]  INFO -- : master process ready
+I, [2015-11-19T05:50:22.556660 #7635]  INFO -- : Refreshing Gem list
+I, [2015-11-19T05:50:22.557689 #7638]  INFO -- : worker=1 spawned pid=7638
+I, [2015-11-19T05:50:22.557864 #7638]  INFO -- : Refreshing Gem list
+I, [2015-11-19T05:50:26.004277 #7635]  INFO -- : worker=0 ready
+I, [2015-11-19T05:50:26.005853 #7638]  INFO -- : worker=1 ready

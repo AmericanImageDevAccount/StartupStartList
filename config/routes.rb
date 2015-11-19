@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'trythis/welcome', to: 'trythis#welcome'
+
+  get 'trythis/index', to: 'trythis#index'
+
   devise_for :users
     resources :posts do
       member do

@@ -1,7 +1,6 @@
-/*
- *= require_self
- */
- 
+@import "bootstrap-sprockets";
+@import 'bootstrap';
+
 body {
   font-family: "Proxima Nova";
   font-weight: 100;
