@@ -1,8 +1,8 @@
 .container
   %ul.nav.nav-tabs
-    %h1 category index
-      %li- @categories.each do |category|
-      %h2= link_to category.category_name, category
+  %h1 category index
+  - @categories.each do |category|
+    %h2= link_to category.category_name, category
 
 = link_to "New", new_category_path, class: "button"
 = link_to "Home", root_path, class: "button"

@@ -1,75 +1,26 @@
 @import "bootstrap-sprockets";
 @import 'bootstrap';
 
-body {
-  font-family: "Proxima Nova";
-  font-weight: 100;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 100;
-}
-
-.wrapper {
-  width: 80%;
-  margin: 0 auto;
-}
-
-.clearfix:before, .clearfix:after {
-  content: " ";
-  display: table;
-}
-
-.clearfix:after {
-  clear: both;
-}
-
-.button {
-  border: 1px solid #9B9B9B;
-  padding: .7rem 1.25rem;
-  border-radius: .3rem;
-  outline: none;
-  background: white;
-  color: #9B9B9B;
-}
-
-header {
-  width: 100%;
-  padding: 2rem 0;
-  border-bottom: 1px solid #E4E4E4;
-  #logo {
-    float: left;
-    font-size: 2.75rem;
-    text-transform: uppercase;
-    a {
-      color: yellow;
-      text-decoration: none;
-      &:hover {
-        color: #50A7C7;
-      }
-    }
-  }
-  nav {
-    float: right;
-    a {
-      margin-left: 1.5rem;
-      line-height: 2;
-      color: #9B9B9B;
-      text-decoration: none;
-      &:hover {
-        color: #50A7C7;
-      }
-    }
-  }
-}
-
 .landing {
-  background: image-url("bkg-9.jpg") no-repeat center center fixed;
+  background: image-url("austin_city.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   height: 100vh;
 }
 
+.container {
+    background: rgb(0, 206, 209); /* Fall-back for browsers that don't
+                                    support rgba */
+    background: rgba(0, 206, 209, .7);
+}
+
+.bannertag {
+    background: rgb(0, 206, 209); /* Fall-back for browsers that don't
+                                    support rgba */
+    background: rgba(0, 206, 209, .7);
+
+    color: #7FFF00;
+}
 @import 'home.scss';
 @import 'posts.scss';

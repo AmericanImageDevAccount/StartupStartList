@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
+  get 'home/index', to: 'home#index'
+
   get 'trythis/welcome', to: 'trythis#welcome'
 
   get 'trythis/index', to: 'trythis#index'

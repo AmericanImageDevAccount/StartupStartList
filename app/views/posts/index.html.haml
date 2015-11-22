@@ -17,7 +17,7 @@
     .post
       .post_image
         = link_to (image_tag post.image.url(:small)), post
-      .post_content
+      .post_content.bannertag
         .title
           %h2= link_to post.title, post
           %h3= link_to "Visit Link", "http://" + post.link, :target => "_blank", class: "pull-right data"

@@ -2090,3 +2090,47 @@ I, [2015-11-19T05:50:22.557689 #7638]  INFO -- : worker=1 spawned pid=7638
 I, [2015-11-19T05:50:22.557864 #7638]  INFO -- : Refreshing Gem list
 I, [2015-11-19T05:50:26.004277 #7635]  INFO -- : worker=0 ready
 I, [2015-11-19T05:50:26.005853 #7638]  INFO -- : worker=1 ready
+I, [2015-11-20T07:38:46.834327 #6806]  INFO -- : listening on addr=/tmp/unicorn.todo.sock fd=10
+I, [2015-11-20T07:38:46.834634 #6806]  INFO -- : worker=0 spawning...
+I, [2015-11-20T07:38:46.835089 #6806]  INFO -- : worker=1 spawning...
+I, [2015-11-20T07:38:46.835236 #6806]  INFO -- : master process ready
+I, [2015-11-20T07:38:46.835790 #6809]  INFO -- : worker=0 spawned pid=6809
+I, [2015-11-20T07:38:46.840015 #6809]  INFO -- : Refreshing Gem list
+I, [2015-11-20T07:38:46.840605 #6811]  INFO -- : worker=1 spawned pid=6811
+I, [2015-11-20T07:38:46.840786 #6811]  INFO -- : Refreshing Gem list
+I, [2015-11-20T07:38:52.674610 #6809]  INFO -- : worker=0 ready
+I, [2015-11-20T07:38:52.675804 #6811]  INFO -- : worker=1 ready
+192.168.0.14 - - [20/Nov/2015:07:39:15 +0000] "GET /images/springsource.png HTTP/1.0" 404 43382 0.1342
+I, [2015-11-20T08:04:16.930468 #6046]  INFO -- : listening on addr=/tmp/unicorn.todo.sock fd=10
+I, [2015-11-20T08:04:16.930676 #6046]  INFO -- : worker=0 spawning...
+I, [2015-11-20T08:04:16.931002 #6046]  INFO -- : worker=1 spawning...
+I, [2015-11-20T08:04:16.931434 #6049]  INFO -- : worker=0 spawned pid=6049
+I, [2015-11-20T08:04:16.931789 #6046]  INFO -- : master process ready
+I, [2015-11-20T08:04:16.941038 #6049]  INFO -- : Refreshing Gem list
+I, [2015-11-20T08:04:16.942069 #6052]  INFO -- : worker=1 spawned pid=6052
+I, [2015-11-20T08:04:16.942292 #6052]  INFO -- : Refreshing Gem list
+I, [2015-11-20T08:04:20.437122 #6049]  INFO -- : worker=0 ready
+I, [2015-11-20T08:04:20.438392 #6052]  INFO -- : worker=1 ready
+I, [2015-11-20T08:12:36.984992 #6016]  INFO -- : listening on addr=/tmp/unicorn.todo.sock fd=10
+I, [2015-11-20T08:12:36.985247 #6016]  INFO -- : worker=0 spawning...
+I, [2015-11-20T08:12:36.985566 #6016]  INFO -- : worker=1 spawning...
+I, [2015-11-20T08:12:36.986002 #6019]  INFO -- : worker=0 spawned pid=6019
+I, [2015-11-20T08:12:36.986325 #6016]  INFO -- : master process ready
+I, [2015-11-20T08:12:36.986452 #6019]  INFO -- : Refreshing Gem list
+I, [2015-11-20T08:12:36.990356 #6022]  INFO -- : worker=1 spawned pid=6022
+I, [2015-11-20T08:12:36.993146 #6022]  INFO -- : Refreshing Gem list
+I, [2015-11-20T08:12:40.479362 #6019]  INFO -- : worker=0 ready
+I, [2015-11-20T08:12:40.480813 #6022]  INFO -- : worker=1 ready
+I, [2015-11-20T09:02:19.414646 #6016]  INFO -- : reaped #<Process::Status: pid 6019 exit 0> worker=0
+I, [2015-11-20T09:02:19.415712 #6016]  INFO -- : reaped #<Process::Status: pid 6022 exit 0> worker=1
+I, [2015-11-20T09:02:19.415971 #6016]  INFO -- : master complete
+I, [2015-11-22T07:27:48.931590 #7142]  INFO -- : listening on addr=/tmp/unicorn.todo.sock fd=10
+I, [2015-11-22T07:27:48.931844 #7142]  INFO -- : worker=0 spawning...
+I, [2015-11-22T07:27:48.932309 #7142]  INFO -- : worker=1 spawning...
+I, [2015-11-22T07:27:48.932822 #7145]  INFO -- : worker=0 spawned pid=7145
+I, [2015-11-22T07:27:48.933386 #7142]  INFO -- : master process ready
+I, [2015-11-22T07:27:48.938260 #7145]  INFO -- : Refreshing Gem list
+I, [2015-11-22T07:27:48.938658 #7148]  INFO -- : worker=1 spawned pid=7148
+I, [2015-11-22T07:27:48.938898 #7148]  INFO -- : Refreshing Gem list
+I, [2015-11-22T07:27:52.694628 #7145]  INFO -- : worker=0 ready
+I, [2015-11-22T07:27:52.697390 #7148]  INFO -- : worker=1 ready
