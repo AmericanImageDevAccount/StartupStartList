@@ -1,0 +1,5 @@
+rails s -p 4000
+
+STARTS in port 4000
+
+
